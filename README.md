@@ -27,8 +27,8 @@ platforms.
 To run the project for J1 Template Web, the following languages and
 tools expected to be in place with your OS:
 
-*   Ruby language, version >= 2.6 < 2.7
-*   Javascript language (NodeJS), version >= 12.x < 13
+*   Ruby language, version >= 2.6 < 3.x
+*   Javascript language (NodeJS), version >= 12.x < 14.x
 
 # Setting up the project
 
@@ -177,12 +177,6 @@ by a reset.
 
 ``` sh
 yarn reset
-```
-
-The cleanup runs some tasks for the root folder and in parallel sub-tasks
-using Lerna for all packages:
-
-``` sh
 ```
 
 To reset the Development System *completely*, delete the folder `node_modules`
