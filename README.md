@@ -30,11 +30,33 @@ tools expected to be in place with your OS:
 *   Ruby language, version >= 2.6 < 3.x
 *   Javascript language (NodeJS), version >= 12.x < 14.x
 
+## Install/Update the package managers for _NodeJS_
+
+NodeJS comes with the package manager *NPM* pre-installed. The native CLI for
+the NodeJS package management is `npm`. Besides `npm` there's another quite
+handy CLI for NPM available: *Yarn*.
+
+The CLI `yarn` is developed at _Facebook_ and can be used as a replacement
+for `npm`. From a top-level perspective, both package management clients
+behave pretty much the *same*. The syntax `yarn` uses is shorter in writing,
+making the command-line look a bit more natural. Therefore, the use of
+`yarn` is preferred over `npm`
+
+Install the latest *NPM* and *Yarn* packages for _NodeJS_:
+
+``` sh
+npm install -g npm@latest <1>
+npm install -g yarn@latest
+```
+
+* <1> The package managers *npm* and *yarn* are installed *globally* (-g)
+
 # Setting up the project
 
 Running the J1 template project is simple:
 
 * Setup the project
+* Bundle (install) all Ruby GEMs required
 * Run and develop your web
 
 J1 Project Structure
@@ -68,8 +90,26 @@ J1 Project Structure
 * <9>   Homepage for the Web
 * <10>  J1 Project file (NPM)
 
+## Bundle the Ruby GEMs
+
+First, install (bundle) all Ruby GEMs required. You can install the
+**bundle** with your home directory (userized):
+
+``` sh
+bundle config set --local path ~/.gem
+bundle install
+```
+
+or system-wide:
+
+``` sh
+bundle install
+```
 
 ## Initialize the project
+
+Initializing the project is done by the NodeJS package manager *yarn*
+running the task `setup`.
 
 The task `setup` takes a while. Typically some minutes for the *first*
 run (depending on the performances of your Internet connection and your
