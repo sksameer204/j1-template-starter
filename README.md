@@ -24,19 +24,16 @@ platforms.
 
 # Development languages and tools
 
-To run the Development System for J1 Template, the following languages and
+To run the project for J1 Template Web, the following languages and
 tools expected to be in place with your OS:
 
 *   Ruby language, version >= 2.6 < 2.7
 *   Javascript language (NodeJS), version >= 12.x < 13
-*   NPM, version >= 6.14
-*   YARN, version >= 1.22
 
 # Setting up the project
 
-Running the J1 template project is very simple:
+Running the J1 template project is simple:
 
-* Clone the repo
 * Setup the project
 * Run and develop your web
 
