@@ -1,10 +1,9 @@
 ---
 title:                                  Welcome
 tagline:                                jekyll for everyone
-date:                                   2021-04-01 00:00:00
 
 categories:                             [ Featured ]
-tags:                                   [ Example, Post ]
+tags:                                   [ J1, Jekyll, Knowledge ]
 
 series:                                 false
 image:                                  /assets/images/modules/attics/katie-moum-1920x1280.jpg
@@ -15,6 +14,7 @@ advertising:                            false
 toc:                                    true
 
 regenerate:                             false
+
 resources:                              []
 resource_options:
   - attic:
