@@ -20,11 +20,8 @@ Have fun!
 
 # Features
 
-J1 meets Jekyll and Bootstrap. And makes a lot of friends. The template
-system combines the best free software for the web. Jekyll One Template
-is OpenSource and the modules included are free to use as well.
-
-No license issues for private or professional use.
+The template combines the best free software for the web. Jekyll One Template
+is OpenSource and the modules included are free to use as well. No license issues for private or professional use.
 
 ## General
 
