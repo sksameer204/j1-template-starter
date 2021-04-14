@@ -16,7 +16,7 @@ you go to the Jekyll Way.
 
 Have fun!
 
-![Screenshot](https://jekyll.one/starter-screenshot.jpg)
+![Screenshot]starter-screenshot.jpg)
 
 # Features
 
