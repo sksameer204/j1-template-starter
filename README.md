@@ -2,7 +2,7 @@
 
 Jekyll One Template - Create powerful modern static websites.
 
-![Screenshot](https://github.com/jekyll-one-org/j1-template-starter/raw/main/starter-screenshot.jpg "J1 Starter Web")
+![Screenshot](https://github.com/jekyll-one-org/j1-template-starter/raw/main/home-screenshot.jpg "J1 Starter Web")
 
 * Fully Responsive. J1 Template supports modern web browsers on all
   devices for best results on PCs, Tablets, and SmartPhones.
